@@ -163,7 +163,7 @@ class FireworksDisplay {
     this.resize();
 
     this.fireworks = [];
-    for (let i = 0; i < 8; i++) {
+    for (let i = 0; i < 3; i++) {
       this.fireworks.push(
         new Firework(this.ctx, this.canvas.width, this.canvas.height)
       );
